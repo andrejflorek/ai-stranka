@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Hlavička */
+
+body{
+    background-color:#eee9e9;
+
+}
+
+.logo{
+    margin-left: 400px;
+}
+.sarch{
+    max-width:100%;
+    background-color: rgb(246, 65, 29);
+    height: 56px;
+    display: flex;
+    padding-top: 10px;
+    gap: 400px;
+}
+
+
+
+.lupa{
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0;
+    
+
+}
+
+.sarch form button{
+    width: 120px;
+    height: 30px;
+    background-color:white;
+    margin:10px;
+    border-radius: 5px;
+}
+
+#menuColaps{
+    display: flex;
+    max-width: 100%;
+    width: 1020px;
+    margin: 0 auto;
+    position:static ;
+    justify-content: center;
+    
+}
+
+#menuColaps a{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 170px;
+    font-size: 25px;
+    text-decoration: none;
+    color:black;
+    padding: 15px 8px ;
+    text-align:center;
+}
+
+/* Hlavna čast */
+
+.mid{
+    width:100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+}
+
+.mid img{
+    align-items:center;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+
+.banner{
+    display: grid; 
+    grid-template-columns: repeat(2,2fr);
+    gap: 65px;
+    margin-left: 20px;
+    
+}
+
+.banner img{
+    border-radius: 30px;
+    margin: 0;
+}
+
+.article{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.info{
+    margin:20px 0px;
+    width: 300px;
+    background-color:white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+h1{
+    width: 1100px;
+    margin: 0 auto;
+    
+}
+
+/* Kategórie */
+
+.category{
+    display: grid;
+    grid-template-columns: repeat(4,3fr);
+    gap: 20px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.pick{
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.pick a{
+    text-decoration: none;  
+    color: black;
+}
