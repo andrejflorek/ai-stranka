@@ -162,5 +162,31 @@ h1{
 }
 
 .container{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1100px;   
+    padding: 20px;
+    margin: 0 auto;
+    border-bottom: 1px solid;
+}
+
+.hero {
+    margin: 30px;
+}
+
+.hero h3{
+    font-size: 30px;
+}
+
+/* Brands */
+
+.brands{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.brands img{
+    max-width: 200px;
 }
