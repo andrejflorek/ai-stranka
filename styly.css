@@ -16,6 +16,11 @@ body {
   background-attachment: fixed;  /* zostane pri scrollovaní */
 }
 
+
+.repeat{
+    margin-left: 20%;
+}
+
 .logo{
     margin-left: 20%;
 }
@@ -26,7 +31,6 @@ body {
     display: flex;
     justify-content: start;
     align-items: center;
-
 }
 
 
